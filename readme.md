@@ -28,6 +28,8 @@
 
 ### 2. Веб приложение
 
+![web interface img](web_cesar_interface.png)
+
 Склонируйте репозиторий
 
 `git clone https://github.com/ENZ0g/cesar_code.git`
