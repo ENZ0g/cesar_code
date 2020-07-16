@@ -90,6 +90,14 @@ textarea {
    color: #247724;
 }
 
+::-webkit-input-placeholder {
+   color: #247724;
+}
+
+#input-key::-webkit-input-placeholder {
+   text-align: center;
+}
+
 #input-key::-moz-placeholder {  /* Firefox 19+ */
    text-align: center;
 }
@@ -106,10 +114,17 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 @media (max-width: 414px) {
     #wrapper {
         margin: 0;
         gap: 10px;
+        min-width: 100%;
     }
 
     form {
